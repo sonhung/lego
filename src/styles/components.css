@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+.app-root {
+  @apply absolute left-0 top-0 z-0 block h-full w-full;
+}
+
+.app-header {
+  @apply absolute top-0 left-0 right-0 z-[9999] w-full;
+}
